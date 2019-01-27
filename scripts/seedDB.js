@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const db = require("../models");
 
+
 // This file empties the Users collection and inserts the users below
 
 mongoose.connect(
@@ -13,10 +14,17 @@ const userSeed = [
     {
         username: "Zodd",
         email: "zoddstinks@gmail.com",
-        password: "clumsy"
+        password: "clumsy",
+        bio: "Cool as Fuck!!",
+        image: "",
+        timestamp:Date.now
+        
     }
 
 ];
+
+
+
 
 db.User
     .remove({})

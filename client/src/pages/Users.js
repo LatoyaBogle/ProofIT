@@ -8,12 +8,15 @@ import { List, ListItem } from "../components/List";
 import { Input, TextArea, FormBtn } from "../components/Form";
 import {Redirect} from 'react-router-dom';
 
+
 class Users extends Component {
   state = {
     users: [],
     username: "",
     email: "",
     password: "",
+    bio:"",
+    image:"",
     redirect:false
   };
 
@@ -24,7 +27,7 @@ class Users extends Component {
   loadUsers = () => {
     API.getUsers()
       .then(res =>
-        this.setState({ users: res.data, username: "", email: "", password: "" })
+        this.setState({ users: res.data, username: "", email: "", password: ""})
       )
       .catch(err => console.log(err));
   };
@@ -44,11 +47,15 @@ class Users extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    if (this.state.username && this.state.password&&this.state.email) {
+    if (this.state.username && this.state.password) {
       API.saveUser({
         username: this.state.username,
         email: this.state.email,
-        password: this.state.password
+        password: this.state.password,
+        bio:this.state.bio,
+        image:this.state.image,
+        timestamp:this.state.timestamp
+        
       })
         .then(res => this.loadUsers())
         .catch(err => console.log(err));
