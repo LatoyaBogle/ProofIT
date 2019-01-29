@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(55deg, #423438 0%, #d44b4b 51%, #d9e5e9 85%);
+    height: 3000px; /* Used to enable scrolling */
+
+
+
+}
+.test{
+    background-image: url("../images/pizza_image.png");
+    height:500px;
+    background:center;
+    background:cover;
+
+
+}

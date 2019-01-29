@@ -11,4 +11,14 @@ function DeleteBtn(props) {
   );
 }
 
-export default DeleteBtn;
+
+export function OutlineBtn(props) {
+  return (
+    <button type="button" className="btn btn-outline-light" {...props}></button>
+
+  )
+}
+
+
+
+export default OutlineBtn;
