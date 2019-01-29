@@ -23,11 +23,14 @@
   }
 
   .navbar {
-    background-color: #333; /* Black background color */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    /*top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    border-bottom:solid rgba(169, 169, 169, 0.685) 1px;
+    height:100px;
   }
   
   /* Style the navbar links */

@@ -1,0 +1,92 @@
+
+
+  body, html{
+    height:100%;
+    margin:0;
+  }
+  
+  
+  .hero-image{
+    height:500px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background:linear-gradient(rgba(0, 0, 0, 0.5));
+    background:rgba(0, 0, 0, 0.5);
+   
+    
+   
+    
+   
+   
+
+  }
+
+ 
+ /* .landing-screen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/blurred_back.png");
+   
+    height:500px;
+   width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    border:20px double;
+    border-spacing: 1px;
+    position: relative;
+    z-index: -5;
+    margin-left:20px;
+
+
+  }*/
+
+  .landing-head {
+    width:1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1000px;
+
+ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../images/phone_pic.png");
+
+    
+
+
+  }
+
+  .hero-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    padding: 20px;
+    text-align: center;
+
+    }
+
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  

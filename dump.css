@@ -1,0 +1,177 @@
+body, html {
+    /*height: 1000px; //landing page*/
+    height:100%;
+    /*//change for landing page//background-image:url("../images/blurred_back.png");*/
+   margin:0;
+   /*//landing// background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+   .lg-image {
+    /* The image used */
+    /*background-image:url("../images/empty.png");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid ridge black;
+    height: 500px; 
+    width:1168px;
+    margin-top:340px;
+    margin-left:-10px;
+    z-index: 20;
+    
+  }
+
+  /*.test-two{
+    background-image:url("../images/pizza_image.png");*/
+    
+/*Add the blur effect
+      filter: blur(8px);
+    -webkit-filter: blur(8px); */
+    /* Full height */
+   
+
+    /* Center and scale the image nicely
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:1; 
+
+  }*/
+  
+  /* Position text in the middle of the page/image */
+ /* .lg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+ /* background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+ /* color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;  /*Stay fixed */
+ /* top: 40%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  }*/
+
+ /* .test-image{
+      filter:blur(0px);
+  }*/
+
+  /*.landing-screen{
+    background-image: url("../images/plated_food.png");
+    height:100%;
+    width:1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: black;
+    border:20px double;
+    border-spacing: 5px;
+  }*/
+
+  .overlay {
+    position: absolute; /* Position the background text */
+    left: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 320px; /* Full width */
+    padding: 20px; /* Some padding */
+    margin-left:600px;
+    font-size:15px;
+    margin-top:100px;
+  }
+
+
+  /*"Main page" css*/
+
+  
+  
+  
+  .bg-image{
+    /* Full height */
+    height: 50%; 
+    background-image: url("");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    
+  }
+  
+  /* Images used */
+  img1 { background-image: url("");
+  height:100%; width:900px; }
+  /*.img2 { background-image: url("../images/pizza_image.png"); }
+  .img3 { background-image: url("../images/image_two.png"); }
+  .img4 { background-image: url("../images/image_three.png"); }
+  .img5 { background-image: url("../images/image_four.png"); }
+  .img6 { background-image: url("../images/image_five.png"); }*/
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    border: 10px solid #f1f1f1;
+    position: fixed; /* Stay fixed */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  <div className="bg-text">Snap It!</div>  
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+
+ 
+  .hero-text {
+    background-color: white;
+    color: black;
+    font-size: 10vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    padding: 10px;
+    height: 200px;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }

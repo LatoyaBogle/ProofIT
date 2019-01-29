@@ -7,21 +7,26 @@ import Main from "./pages/Main";
 import Home from "./pages/Home";
 import Landing from "./pages/Landing";
 import Nav from "../src/components/Nav";
+import Footer from "../src/components/Footer";
+import {Col, Row, Container} from "../src/components/Grid";
+
 
 function App() {
   return (
     <Router>
-      <div className="container">
-      <Nav/>
+     
+      <Container>
         <Switch>
-          <Route exact path="/" component={Main}/>
+       
+          <Route exact path="/" component={Landing}/>
           <Route exact path="/users" component={Users} />
           <Route exact path="/users/:id" component={Detail} />
           <Route component={NoMatch} />
-          <Route exact path="/landing" component={Landing} />
+          <Route exact path="/landing" component={Main} />
           <Route exact path="/home" component={Home}/>
         </Switch>
-      </div>
+        <Footer/>
+        </Container>
     </Router>
   );
 }

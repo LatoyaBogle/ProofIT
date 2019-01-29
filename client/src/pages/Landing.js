@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import API from "../utils/API";
-import test from "../images/plated_food.png";
+import {Col, Row, Container} from "../components/Grid";
+import Nav from "../components/Nav";
+
+import test from "../images/phone_pic.png";
 import top from "../images/pizza_image.png";
-import ("../pages/style.css");
+import ("../pages/landing.css");
 
 
 
@@ -28,23 +31,34 @@ class Landing extends Component {
 
      render(){
         return(
-            <div className="container test">
+            <Container>
+                <Nav/>
                 
+                <div className="landing-head">
+                
+           
+        
+                </div>
 
-            <div className="landing-screen">
-            <div className="bg-image">
-            <div class="overlay"></div>
-            
-            </div>
-            
-            <div className="bg-text">
+                <div className="hero-text" style={{marginTop:70, zIndex:5}}>
 
-<h1>Snap It!</h1>
-<h6>A picture is worth a thousand words...</h6>
+<h1>A picture <br>
+</br>is worth a thousand <br></br>words...</h1>
+
 
 
 </div>
 
+
+                
+                
+
+            
+            
+            
+            
+           
+
            
 
             
@@ -53,8 +67,8 @@ class Landing extends Component {
 
 
             
-            </div>
-            </div>
+           
+            </Container>
         )
     }
     
