@@ -86,6 +86,11 @@ class Landing extends Component {
       </Col>
                 
                     <OutlineBtn style={{alignSelf:"left"}} data-toggle="modal" data-target="#exampleModalCenter">Sign-Up <i class="fas fa-camera-retro"></i></OutlineBtn>
+                    
+                    
+                    
+                    
+                    
                     </Nav>
                 
                 <div className="landing-head">

@@ -8,6 +8,9 @@ import notsure from "../images/image_one.png";
 import pizza from "../images/image_six.png";
 import Header from "../components/Header/index.js";
 import {Col, Row, Container} from "../components/Grid";
+import Jumbotron from "../components/Jumbotron";
+import OutlineBtn from "../components/DeleteBtn/index.js";
+
 import Nav from "../components/Nav";
 
 
@@ -22,6 +25,32 @@ class Main extends Component {
             
             <Container>
                <Nav/>
+               <Jumbotron><h1 className="display-4">Highest Rated Reviews in your Area</h1>
+                    <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr className="my-4"></hr>
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <div className="accordion" id="accordionExample">
+  <div className="card">
+    <div className="card-header" id="headingOne">
+      <h2 className="mb-0">
+      <OutlineBtn data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Show Reviews</OutlineBtn>
+      
+      </h2>
+    </div>
+
+    <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div className="card-body">
+      <Row>
+        <Col size="md">Picture</Col><Col size="md">Name</Col><Col size="md">Category</Col><Col size="md">Rating</Col>
+        </Row>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+                    </Jumbotron>
+                        
+
             <div className="bg-image">
             
 
