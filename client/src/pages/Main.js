@@ -25,10 +25,11 @@ class Main extends Component {
             
             <Container>
                <Nav/>
-               <Jumbotron><h1 className="display-4">Highest Rated Reviews in your Area</h1>
-                    <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+               <div style={{marginLeft:200}}>
+               <Jumbotron ><h1 className="display-4">Top Reviews from your Area</h1>
+                    <p className="lead">Who has the highest rating</p>
                     <hr className="my-4"></hr>
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p></p>
   <div className="accordion" id="accordionExample">
   <div className="card">
     <div className="card-header" id="headingOne">
@@ -49,7 +50,7 @@ class Main extends Component {
   </div>
   
                     </Jumbotron>
-                        
+                    </div>        
 
             <div className="bg-image">
             

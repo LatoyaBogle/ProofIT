@@ -99,15 +99,15 @@ class Home extends Component {
                         </Row>
                 <Row >
                     <div className="highest-rated jumbotron-fluid">{/**formerly test  */}
-                    <Jumbotron><h1 className="display-4">Highest Rated Reviews in your Area</h1>
-                    <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <Jumbotron ><h1 className="display-4">Highest Rated Reviews in your Area</h1>
+                    <p className="lead"></p>
                     <hr className="my-4"></hr>
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p></p>
   <div className="accordion" id="accordionExample">
   <div className="card">
     <div className="card-header" id="headingOne">
       <h2 className="mb-0">
-      <OutlineBtn data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Show Reviews</OutlineBtn>
+      <OutlineBtn data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style={{backgroundColor:"red"}}>Show Reviews</OutlineBtn>
       
       </h2>
     </div>

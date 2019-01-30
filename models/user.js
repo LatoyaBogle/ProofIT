@@ -11,11 +11,11 @@ const userSchema = new Schema({
     function(input) {
       return input.length >= 2;
     },
-    "Password should be longer."
+    
   ]},
-  email: { type: String, unique:true, required: "Email is required", match: [/.+@.+\..+/, "Please enter a valid e-mail address"]},
+  email: { type: String, unique:true, required: "Email is required"},
   bio: String,
-  image: String,
+  profile_image: String,
 }, {timestamps:true});
 
 

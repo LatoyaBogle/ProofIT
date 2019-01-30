@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project-3
+GW Project #3
 
-## Available Scripts
+Snap IT!
+A review app made easy. Snap a picture, rate it.  That's it"
+"A picture is worth a thousand words"!
 
-In the project directory, you can run:
+Requirements:MERN stack used for front-end/UI,back-end and database design.  
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+Description:
+  Users of my app will be able to search through a variety of community food reviews.
+  Snap It! has two main categories:Professional and Amateur.
+    -Professional Category (contains food reviews that are from Restaurants or Trained Chefs).  
+    -Private Category(contains food reviews that are a more personal scope).
+    Member Reviewers can then specify the type of cuisine, dish name, location, and the recipe(if Amateur), and the business location(if Professional). Lastly, all members give their member-approved ratings,and finish with a Snap.
+    -Although, only members can upload photos and provide a approved rating, all user's can search and provide a community review.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Demo:
+Snap IT! is deployed to Heroku. Please check it out here.
+Installation
+To install the application follow the instructions below:
+//put my git hub here
+cd Project-2
+npm install
+Run Locally
+Once you have completed installation, to access the application in your browser, first run node server.js in your terminal within the Project-2 folder.
+If done properly, your terminmal should display the following:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Now, open the local application on port 3000 at the URL: http://localhost:3000/.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Presentation
+To view our presentation about our app, check it out here!
